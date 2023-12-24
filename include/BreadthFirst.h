@@ -4,6 +4,7 @@
 #include <queue>
 #include "PathFindingStrategy.h"
 #include "UninformedSearch.h"
+#include "Coordinates.h"
 
 class BreadthFirst : public PathFindingStrategy, public UninformedSearch<std::queue<Coordinates>>
 {

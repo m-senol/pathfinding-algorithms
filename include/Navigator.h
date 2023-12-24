@@ -6,7 +6,7 @@
 class Navigator
 {
     private:
-        PathFindingStrategy strategy;
+        PathFindingStrategy *strategy;
 
     public:
         Navigator(PathFindingStrategy strategy);

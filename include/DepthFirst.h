@@ -4,11 +4,12 @@
 #include <stack>
 #include "PathFindingStrategy.h"
 #include "UninformedSearch.h"
+#include "Coordinates.h"
 
 class DepthFirst : public PathFindingStrategy, public UninformedSearch<std::stack<Coordinates>>
 {
     public:
-        DepthFirst();
+        DepthFirst(Coordinates start, Coordinates finish);
 };
 
 #endif
