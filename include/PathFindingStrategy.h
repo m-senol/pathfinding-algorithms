@@ -2,8 +2,8 @@
 #define __PATH_FINDING_STRATEGY_H__
 
 class PathFindingStrategy {
-    public:
-        void solve();
+    protected:
+        virtual void execute() = 0;
 };
 
 #endif

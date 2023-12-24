@@ -13,8 +13,6 @@ class UninformedSearch
 
     protected:
         UninformedSearch(Coordinates start, Coordinates finish);
-
-    public:
         void solve();
 };
 

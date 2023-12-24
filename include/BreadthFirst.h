@@ -8,7 +8,7 @@
 class BreadthFirst : public PathFindingStrategy, public UninformedSearch<std::queue<Coordinates>>
 {
     public:
-        BreadthFirst();
+        BreadthFirst(Coordinates start, Coordinates finish);
 };
 
 #endif
