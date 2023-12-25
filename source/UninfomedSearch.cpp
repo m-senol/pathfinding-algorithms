@@ -46,15 +46,25 @@ void UninformedSearch<T>::solve()
         }
     }
 
-    std::vector<Coordinates> answer;
     answer.push_back(finish);
-
     Coordinates lastAddition = finish;
     while(lastAddition != start)
     {
-        // TODO: Retrace your steps
+        Coordinates lastAddition = lastStep(lastAddition);
+        answer.push_back(lastAddition);
     }
-
     std::reverse(answer.begin(), answer.end());
     return;
+}
+
+template <class T>
+std::vector<Coordinates> UninformedSearch<T>::neighbours(Coordinates currentPosition) const
+{
+    return std::vector<Coordinates>();
+}
+
+template <class T>
+Coordinates UninformedSearch<T>::lastStep(Coordinates currentPosition) const
+{
+    return Coordinates();
 }

@@ -20,14 +20,16 @@ class UninformedSearch
         T frontier;
         
         UninformedSearch(Coordinates start, Coordinates finish);
-        std::vector<Coordinates> neighbours(Coordinate currentPosition);
+        std::vector<Coordinates> neighbours(Coordinates currentPosition) const;
+        Coordinates lastStep(Coordinates currentposition) const;
         void solve();
         
-        
-        virtual bool exist(const Coordinates& coordinates) = 0;
         virtual void add(const Coordinates& coordinates) = 0;
         virtual Coordinates remove() = 0;
         virtual bool empty() = 0;
+    
+    public:
+        std::vector<Coordinates> answer;
         
 };
 
