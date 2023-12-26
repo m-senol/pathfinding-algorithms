@@ -6,9 +6,10 @@
 #include <algorithm>
 #include <iostream>
 #include "Coordinates.h"
+#include "PathFindingStrategy.h"
 
 template <class T>
-class UninformedSearch
+class UninformedSearch : public PathFindingStrategy
 {
     private:
         std::unordered_map<Coordinates> visited;
