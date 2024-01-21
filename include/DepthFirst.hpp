@@ -1,5 +1,5 @@
-#ifndef __DEPTH_FIRST_H__
-#define __DEPTH_FIRST_H__
+#ifndef __DEPTH_FIRST_HPP__
+#define __DEPTH_FIRST_HPP__
 
 #include <stack>
 #include "UninformedSearch.hpp"

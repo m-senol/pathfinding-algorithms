@@ -1,5 +1,5 @@
-#ifndef __COORDINATES_H__
-#define __COORDINATES_H__
+#ifndef __COORDINATES_HPP__
+#define __COORDINATES_HPP__
 
 #include <iostream>
 #include <cmath>

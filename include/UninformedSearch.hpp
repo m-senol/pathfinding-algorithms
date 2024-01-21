@@ -1,5 +1,5 @@
-#ifndef __UNINFORMED_SEARCH_H__
-#define __UNINFORMED_SEARCH_H__
+#ifndef __UNINFORMED_SEARCH_HPP__
+#define __UNINFORMED_SEARCH_HPP__
 
 #include "Coordinates.hpp"
 #include "Maze.hpp"

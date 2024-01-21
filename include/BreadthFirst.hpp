@@ -1,5 +1,5 @@
-#ifndef __BREADTH_FIRST_H__
-#define __BREADTH_FIRST_H__
+#ifndef __BREADTH_FIRST_HPP__
+#define __BREADTH_FIRST_HPP__
 
 #include <queue>
 #include "UninformedSearch.hpp"

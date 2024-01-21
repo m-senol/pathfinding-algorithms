@@ -1,5 +1,5 @@
-#ifndef __PATH_FINDING_STRATEGY_H__
-#define __PATH_FINDING_STRATEGY_H__
+#ifndef __PATH_FINDING_STRATEGY_HPP__
+#define __PATH_FINDING_STRATEGY_HPP__
 
 #include <vector>
 #include "Maze.hpp"

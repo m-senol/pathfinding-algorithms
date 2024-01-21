@@ -1,5 +1,5 @@
-#ifndef __NAVIGATOR_H__
-#define __NAVIGATOR_H__
+#ifndef __NAVIGATOR_HPP__
+#define __NAVIGATOR_HPP__
 
 #include <string>
 #include <vector>

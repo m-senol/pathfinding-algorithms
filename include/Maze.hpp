@@ -1,5 +1,5 @@
-#ifndef __MAZE_H__
-#define __MAZE_H__
+#ifndef __MAZE_HPP__
+#define __MAZE_HPP__
 
 #define PATH   0
 #define WALL   1
