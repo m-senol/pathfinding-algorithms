@@ -4,7 +4,6 @@
 #include <queue>
 #include "UninformedSearch.hpp"
 #include "Coordinates.hpp"
-#include "Maze.hpp"
 
 
 class BreadthFirst : public UninformedSearch<std::queue<Coordinates>>

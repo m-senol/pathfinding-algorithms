@@ -4,7 +4,6 @@
 #include <stack>
 #include "UninformedSearch.hpp"
 #include "Coordinates.hpp"
-#include "Maze.hpp"
 
 class DepthFirst : public UninformedSearch<std::stack<Coordinates>>
 {
