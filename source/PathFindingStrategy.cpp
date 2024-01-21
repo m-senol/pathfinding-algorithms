@@ -1,1 +1,5 @@
-#include "PathFindingStrategy.h"
+#include "PathFindingStrategy.hpp"
+
+PathFindingStrategy::PathFindingStrategy()
+{
+}

@@ -1,6 +1,23 @@
-#include "BreadthFirst.h"
+#include "BreadthFirst.hpp"
 
-BreadthFirst::BreadthFirst(Coordinates start, Coordinates finish)
-: UninformedSearch<std::queue<Coordinates>>(start, finish)
+BreadthFirst::BreadthFirst()
+: UninformedSearch<std::queue<Coordinates>>()
 {
+}
+
+void BreadthFirst::add(const Coordinates& coordinates)
+{
+	frontier.push(coordinates);
+}
+
+Coordinates BreadthFirst::remove()
+{
+	Coordinates c = frontier.front();
+	frontier.pop();
+	return c;
+}
+
+bool BreadthFirst::empty()
+{
+	return frontier.empty();
 }

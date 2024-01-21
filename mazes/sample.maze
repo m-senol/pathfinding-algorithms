@@ -1,10 +1,10 @@
 5 7
-wall w
-path p
-start s
-finish f
-wwwwwwf
-wwwpppp
-wpppwww
-wpwwwww
-wswwwww
+0 p
+1 w
+2 s
+3 f
+ppppppf
+wpwwwwp
+wpwwwwp
+wpppwwp
+wswpppp
